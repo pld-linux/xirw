@@ -1,12 +1,12 @@
 Summary:	XIRW - an infrared commands debugger
 Summary(pl):	XIRW - debugger sygna³ów w podczerwieni
 Name:		xirw
-Version:	0.4.1
+Version:	0.4.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/lirc/%{name}-%{version}.tar.gz
-# Source0-md5:	95e35f88a7ad23060d87c12da63ec8e4
+# Source0-md5:	de3b40dcf14caad0638c6c8d41187eb1
 URL:		http://www.lirc.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
