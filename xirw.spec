@@ -25,7 +25,7 @@ s± odbierane prze LIRC.
 %setup -q
 
 %build
-aclocal
+%{__aclocal}
 %{__automake}
 %{__autoconf}
 %configure \
