@@ -26,7 +26,7 @@ s± odbierane prze LIRC.
 
 %build
 aclocal
-automake -a -c
+automake -a -c -f
 autoconf
 %configure \
     --with-qt-libraries=/usr/X11R6/lib \
