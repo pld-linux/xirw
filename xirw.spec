@@ -30,15 +30,15 @@ s± odbierane prze LIRC.
 %{__automake}
 %{__autoconf}
 %configure \
-	--with-qt-libraries=/usr/X11R6/lib \
-	--with-qt-includes=/usr/X11R6/include/qt
+	--with-qt-libraries=%{_libdir} \
+	--with-qt-includes=/usr/include/qt
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_bindir}
 
-install -d $RPM_BUILD_ROOT%{_prefix}/X11R6/bin
-install xirw $RPM_BUILD_ROOT%{_prefix}/X11R6/bin
+install xirw $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc NEWS README ChangeLog
-%attr(755,root,root) %{_prefix}/X11R6/bin/xirw
+%attr(755,root,root) %{_bindir}/xirw
