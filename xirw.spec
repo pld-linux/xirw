@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.sourceforge.net/LIRC/%{name}-%{version}.tar.gz
-URL:		http://www.lirc.org
+URL:		http://www.lirc.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	lirc-devel >= 0.6.0
@@ -39,12 +39,10 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_prefix}/X11R6/bin
 install xirw $RPM_BUILD_ROOT%{_prefix}/X11R6/bin
 
-gzip -9nf NEWS README ChangeLog
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc NEWS README ChangeLog
 %attr(755,root,root) %{_prefix}/X11R6/bin/xirw
