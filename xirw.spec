@@ -5,9 +5,6 @@ Version:	0.4.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Group(de):	X11/Applikationen
-Group(pl):	X11/Aplikacje
-Group(pt):	X11/Aplicações
 Source0:	http://download.sourceforge.net/LIRC/%{name}-%{version}.tar.gz
 URL:		http://www.lirc.org
 BuildRequires:	autoconf
