@@ -30,8 +30,8 @@ s± odbierane prze LIRC.
 %{__automake}
 %{__autoconf}
 %configure \
-    --with-qt-libraries=/usr/X11R6/lib \
-    --with-qt-includes=/usr/X11R6/include/qt
+	--with-qt-libraries=/usr/X11R6/lib \
+	--with-qt-includes=/usr/X11R6/include/qt
 %{__make}
 
 %install
