@@ -31,7 +31,7 @@ s± odbierane prze LIRC.
 %{__autoconf}
 %configure \
 	--with-qt-libraries=%{_libdir} \
-	--with-qt-includes=%{_includedir}/qt
+	--with-qt-includes=/usr/include/qt
 %{__make}
 
 %install
