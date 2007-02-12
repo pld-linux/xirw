@@ -1,5 +1,5 @@
 Summary:	XIRW - an infrared commands debugger
-Summary(pl):	XIRW - debugger sygna³ów w podczerwieni
+Summary(pl.UTF-8):   XIRW - debugger sygnaÅ‚Ã³w w podczerwieni
 Name:		xirw
 Version:	0.4.2
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Xirw is a Qt based application that shows you which commands are
 received by LIRC.
 
-%description -l pl
-Xirw jest aplikacj± z interfejsem w Qt, która pokazuje jakie komendy
-s± odbierane prze LIRC.
+%description -l pl.UTF-8
+Xirw jest aplikacjÄ… z interfejsem w Qt, ktÃ³ra pokazuje jakie komendy
+sÄ… odbierane prze LIRC.
 
 %prep
 %setup -q
