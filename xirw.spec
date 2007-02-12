@@ -1,5 +1,5 @@
 Summary:	XIRW - an infrared commands debugger
-Summary(pl.UTF-8):   XIRW - debugger sygnałów w podczerwieni
+Summary(pl.UTF-8):	XIRW - debugger sygnałów w podczerwieni
 Name:		xirw
 Version:	0.4.2
 Release:	1
